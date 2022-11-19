@@ -1,0 +1,84 @@
+@import url(https://fonts.google.com/specimen/Montserrat);
+@import url(https://fonts.google.com/specimen/Fraunces);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+### Primary
+
+- Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
+
+### Neutral
+
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%)
+
+### Body Copy
+
+- Font size (paragraph): 14px
+
+### Font
+
+- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 500, 700
+
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700
+
+*/
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+.main-div{
+    margin: 125px auto 0;
+    overflow: auto;
+    width: 500px;
+    border-radius: 20px;
+}
+img{height: 400px;}
+.img{
+    float: left;
+    padding-right: 30px;
+     
+}
+.product-info div{
+    padding: 10px;
+    background-color: hsl(0, 0%, 100%);
+}
+.product-info div:first-child{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: hsl(228, 12%, 48%);
+}
+p{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    line-height: 20px;
+}
+h1{
+    color: hsl(212, 21%, 14%);
+    font-family: Fraunces;
+    font-weight: 700;
+}
+button{
+    width: 180px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+}
+.product-info div:last-child span{
+padding-right: 5px;
+vertical-align: sub;
+}
